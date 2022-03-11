@@ -1,0 +1,143 @@
+@import "./core/variables";
+@import "./core/reset";
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__menu {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    padding-left: 5%;
+    &--openspaces {
+      justify-items: center;
+      display: block;
+      margin: auto;
+    }
+  }
+
+  &__banner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: baseline;
+    align-items: center;
+  }
+
+  &__nav {
+    display: none;
+  }
+}
+
+.button {
+  background: $color-hex;
+  color: $color-white;
+  padding: 12px 24px;
+  width: 176px;
+  height: 48px;
+  margin: 24px 119px 64px 119px;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.title3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title2 {
+  font-size: 14px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.image__article {
+  width: 90px;
+  height: 99px;
+  margin-bottom: 15%;
+}
+
+.main {
+  &__organized {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    background-color: $color-ligh-grey;
+    padding: 8%;
+
+    &--articles {
+      margin-top: 41px;
+      padding: 0% 20%;
+    }
+  }
+  &__sent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $color-white;
+    &--image {
+      width: 120px;
+      height: 120px;
+    }
+  }
+}
+
+.main__sent {
+  background-color: $color-orange;
+  height: 352px;
+}
+
+.spaces {
+  background-color: $color-ligh-grey;
+  
+  &__enjoy {
+    height: 339px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+  }
+  &__image {
+    height: 304px;
+    width: 100%;
+  }
+}
+
+.title.sent {
+  padding-top: 3%;
+}
+
+.link-buy {
+  padding-top: 5%;
+}
+.footer {
+  height: 545px;
+  background-color: $color-hex;
+  color: $color-grey;
+  display: flex;
+  flex-direction: column;
+  padding: 56px 59px 56px 146px;
+}
+
+.icos__social-icon{
+       white-space: normal;
+}
