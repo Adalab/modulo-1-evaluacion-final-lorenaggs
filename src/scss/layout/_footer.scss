@@ -36,7 +36,8 @@
     .linkedin:hover,
     .instagram:hover,
     .twitter:hover {
-      color: tan;
+      // color: tan;
+
       transform: scale(3) rotate(-360deg);
       transition: transform 1s;
     }
@@ -47,7 +48,7 @@
 }
 
 a:hover {
-  color: lightpink;
+  color: #1c888f;
 }
 
 .button:hover,
