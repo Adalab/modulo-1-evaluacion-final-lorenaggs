@@ -36,7 +36,7 @@
     &--title {
       font-size: 24px;
     }
-    
+
     .button {
       background: $color-hex;
       color: $color-white;
@@ -54,9 +54,8 @@
 @media all and (min-width: 768px) {
   .header {
     height: 93vh;
-    background-size: cover;
     background-position: right;
-    
+
     &__banner {
       align-items: flex-start;
       width: 400px;

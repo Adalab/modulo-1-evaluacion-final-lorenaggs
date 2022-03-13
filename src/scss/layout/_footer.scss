@@ -1,11 +1,12 @@
 .footer {
+  height: 545px;
   background-color: $color-hex;
   color: $color-grey;
-  padding: 56px 59px 56px 146px;
+  padding: 10px 59px 56px 146px;
 
   &__sections {
     &--shop {
-      margin: 10px 0px;
+      margin: 50px 0px;
       font-size: 14px;
       & a {
         text-decoration: none;
@@ -40,17 +41,35 @@
       transition: transform 1s;
     }
   }
-  .title3 {
-    font-size: 20px;
-  }
+}
+.title3 {
+  font-size: 20px;
+}
+
+a:hover {
+  color: lightpink;
+}
+
+.button:hover,
+.spaces__enjoy--button:hover {
+  background-color: sandybrown;
+  transition: transform 1s;
+  transform: scale(1.5);
 }
 
 @media all and (min-width: 768px) {
   .footer {
+    height: 276px;
     &__sections {
       display: flex;
       width: 90%;
       justify-content: space-around;
     }
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .title3 {
+    font-size: 24px;
   }
 }

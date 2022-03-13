@@ -28,9 +28,20 @@
   }
 }
 
+@media all and (min-width: 768px) {
+  .main {
+    .main__sent {
+      &--title {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
 @media all and (min-width: 1200px) {
   .main {
     .main__sent {
+      height: 400px;
       &--title {
         font-size: 36px;
       }

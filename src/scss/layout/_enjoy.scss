@@ -1,7 +1,5 @@
 .spaces {
   background-color: $color-ligh-grey;
-  justify-content: center;
-
   &__enjoy {
     height: 339px;
     text-align: center;
@@ -9,7 +7,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // padding: 5%;
+    padding: 5%;
 
     &--title {
       font-size: 24px;
@@ -24,12 +22,10 @@
       color: $color-white;
       width: 176px;
       height: 48px;
-      margin: 24px 0px 64px 0px;
     }
   }
 
   &__image {
-    // width: 100vw;
     height: 304px;
     background-image: url(../images/creando-espacios.jpg);
     background-size: cover;
@@ -46,6 +42,7 @@
 @media all and (min-width: 768px) {
   .spaces {
     &__enjoy {
+      height: 339px;
       &--title {
         font-size: 30px;
       }
@@ -64,10 +61,13 @@
   .spaces {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+
     &__enjoy {
-      align-items: left;
-      height: auto;
-      border: 1px solid red;
+      width: 400px;
+      align-items: flex-start;
+      text-align: left;
+      margin: auto;
     }
 
     &__image {
