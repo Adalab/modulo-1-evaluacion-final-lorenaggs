@@ -7,6 +7,7 @@
 
   &__organized {
     padding: 50px 60px;
+    // text-align: center;
     &--title {
       font-size: 24px;
     }
@@ -51,7 +52,8 @@
         // margin: 0px 10px 0px 20px;
         &--title {
           font-size: 36px;
-          width: 799px;
+          padding: 0px 350px;
+          // width: 799px;
         }
     .main__organized--articles {
         &-1 {
