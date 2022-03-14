@@ -1,3 +1,5 @@
+@import '../core/variables';
+
 .footer {
   height: 545px;
   background-color: $color-hex;
@@ -10,7 +12,6 @@
       font-size: 14px;
       & a {
         text-decoration: none;
-        font-weight: bold;
       }
     }
   }
@@ -36,8 +37,6 @@
     .linkedin:hover,
     .instagram:hover,
     .twitter:hover {
-      // color: tan;
-
       transform: scale(3) rotate(-360deg);
       transition: transform 1s;
     }
@@ -45,15 +44,16 @@
 }
 .title3 {
   font-size: 20px;
+  font-weight: bold;
 }
 
 a:hover {
-  color: #1c888f;
+  color: $color-lighthex;
 }
 
 .button:hover,
 .spaces__enjoy--button:hover {
-  background-color: sandybrown;
+  background-color: $color-sandybrown;
   transition: transform 1s;
   transform: scale(1.5);
 }
