@@ -1,0 +1,22 @@
+@import '../core/variables';
+
+.main__offer{
+    display: none;
+    border: 2px solid red;
+    background-color: $color-orange;
+    &--title{
+        padding-bottom: 10px;
+    }
+}
+
+
+@media all and (min-width: 768px){
+    .main__offer{
+    display: flex;
+    flex-direction: column;
+}
+.main__offer--discountdescrip{
+    display: flex;
+    // flex-direction: column;
+}
+}
